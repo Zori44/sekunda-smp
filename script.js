@@ -2,7 +2,7 @@ const tlacitko = document.getElementById("ip-btn");
 
 tlacitko.addEventListener("click", function() {
     // 1. Zkopíruje IP do schránky (doplň svou adresu z Playit.gg)
-    navigator.clipboard.writeText("tvoje-adresa.playit.gg");
+    navigator.clipboard.writeText("biomedical-retold.tun.ply.gg");
 
     // 2. Změní text a barvu tlačítka
     tlacitko.innerText = "Zkopírováno! ✅";
@@ -33,3 +33,4 @@ async function zjistiStav() {
 }
 
 zjistiStav();
+
